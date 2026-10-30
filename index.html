@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- DOCUMENT METADATA & DESIGN ASSETS: Set browser details, social description, fonts, and the site stylesheet. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11251d">
+  <meta name="description" content="The portfolio of Aspen: web projects, curious ideas, and a little Cretaceous spirit.">
+  <title>Aspen — A curious mind, still evolving</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  
+  <!-- SITE HEADER & NAVIGATION: Brand identity, section links, and the small-screen menu toggle. -->
+  <header class="site-header">
+    <a 
+      class="wordmark" 
+      href="#top" 
+      aria-label="Aspen home">
+      <span class="mark">
+        F
+      <span>
+        7
+      </span>
+      </span>
+      <span>Aspen Stalliviere<span class="wordmark-light"></span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Selected Work</a>
+      <a href="#shelf">The Shelf</a>
+      <a class="nav-contact" href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer">Github<span>↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <!-- MAIN PORTFOLIO CONTENT: The landing page sections, in the order visitors encounter them. -->
+  <main id="top">
+
+    <!-- HERO INTRODUCTION & SPECIMEN ART: Introduces Aspen and pairs the opening message with the dinosaur illustration. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> 
+          PERSONAL PORTFOLIO 
+          <span class="eyebrow-divider">
+            /
+          </span> 
+          OPEN BOOK, OPEN TAB
+        </p>
+        <h1 id="hero-title">Curious by<br>nature. <em>Built to</em><br><span class="outline-word">create.</span></h1>
+        <p class="hero-intro">I`m Aspen — a maker, reader, and lifelong work-in-progress. I turn curiosity into things you can click, explore, and remember.</p>
+        <div class="hero-actions"><a class="button button-cream" href="#work">Explore my work <span>↓</span></a><a class="text-link" href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer">Find me on GitHub <span>↗</span></a></div>
+        <div class="hero-footnote"><span>01 / A LITTLE INTRODUCTION</span><span>SCROLL TO WANDER ↓</span></div>
+        <aside class="verse-note hero-verse"><strong>Joshua 1:9 · NKJV</strong><span>“Be strong and of good courage; do not be afraid.”</span></aside>
+      </div>
+
+      <!-- SPECIMEN CARD: Decorative orbital details, the SVG dinosaur, caption, and field-note labels. -->
+      <div class="hero-art" aria-label="Illustration of a spinosaurus reading a book">
+        <div class="art-topline"><span>SPECIMEN No. 001</span><span>THE CURIOUS SPINOSAURUS</span></div>
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="sun-disc"></div>
+        <svg class="dino" viewBox="0 0 640 590" role="img" aria-labelledby="dino-title dino-desc">
+          <title id="dino-title">A bookish spinosaurus</title><desc id="dino-desc">A dark green spinosaurus silhouette with a tall sail and a tiny open book.</desc>
+          <defs><linearGradient id="sail" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#c0cf91"/><stop offset="1" stop-color="#708b57"/></linearGradient></defs>
+          <circle cx="558" cy="178" r="5" class="dino-eye"/>
+         </svg>
+        <span class="art-star star-a">✳</span><span class="art-star star-b">✳</span>
+        <div class="art-caption"><span class="caption-no">SPINOSAURUS<br>AEGYPTIACUS</span><span>FIELD NOTES<br><b>Curiosity found alive.</b></span></div>
+        <div class="art-side-label">A CREATURE OF MANY INTERESTS · SINCE ALWAYS</div>
+      </div>
+      <div class="hero-bottom">
+        <span>WEB / WORDS / WONDER</span>
+        <span>BASED ON EARTH, USUALLY IN A BOOK</span>
+        <span>EST. IN THE PRESENT</span></div>
+    </section>
+
+    <!-- ABOUT THE DESIGNER: A short biography and a strip of current interests. -->
+    <section class="about section" id="about">
+      <!-- Decorative word thread: individual words reveal as they enter the viewport. -->
+      <div class="word-thread" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 900" focusable="false">
+          <defs>
+            <path id="wordPath" d="M50 0 C88 96 12 161 25 257 S88 386 50 482 S12 611 50 707 S88 804 50 900" />
+          </defs>
+          <text><textPath href="#wordPath">CREATE • EXPLORE • DESIGN • IMAGINE • BUILD • DISCOVER • CREATE • EXPLORE • DESIGN • IMAGINE • BUILD • DISCOVER •</textPath></text>
+        </svg>
+      </div>
+      <div class="section-index section-index-verse"><span>01</span><span>THE PERSON BEHIND THE PIXELS</span><aside class="verse-note"><strong>Psalm 46:1 · NKJV</strong><span>“God is our refuge and strength, A very present help in trouble.”</span></aside></div>
+      <div class="about-grid">
+        <h2>A head full<br>of <em>stories.</em></h2>
+        <div class="about-text">
+          <p class="lead">
+            Equal parts builder and daydreamer. I like making the internet feel a little more 
+            human — and asking “what if?” until something interesting happens.</p><p>One minute I’m putting 
+            a project together; the next I’ve disappeared into a book, a movie, or an overly specific 
+            dinosaur fact. I’m drawn to experiences with a point of view: clear, a little unexpected, 
+            and made with care.
+          </p>
+          <a class="text-link dark-link" href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer">
+            A peek at what I’m learning <span>↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="interest-strip">
+        <span>CURRENT CURIOSITIES</span>
+        <b>⌕ Reading</b><i>✳</i><b>✍ Writing</b>
+        <i>✳</i>
+        <b>◉ Movies</b>
+        <i>✳</i>
+        <b>♜ Dinosaurs</b>
+        <i>✳</i>
+        <b class="green-word">Viridian, always</b>
+      </div>
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>Isaiah 41:10 · NKJV</strong><span>“Fear not, for I am with you; Be not dismayed.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 34:8 · NKJV</strong><span>“Oh, taste and see that the Lord is good.”</span></aside>
+        <aside class="verse-note"><strong>Matthew 11:28 · NKJV</strong><span>“Come to Me, all you who labor and are heavy laden.”</span></aside>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK PORTFOLIO: Linked project previews, summaries, technology tags, and repository link. -->
+    <section class="work section" id="work">
+      <div class="section-index section-index-verse"><span>02</span><span>THINGS MADE WITH CURIOSITY</span><aside class="verse-note"><strong>Proverbs 16:3 · NKJV</strong><span>“Commit your works to the Lord, And your thoughts will be established.”</span></aside></div>
+      <div class="section-heading"><h2>Selected <em>Work</em></h2><p>A few stops along the learning curve.<br>Every project starts with a question.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-main">
+          <a 
+            href="https://bookstore-react-ql4q.vercel.app/" 
+            target="_blank" 
+            rel="noreferrer" 
+            class="project-image portfolio-preview" 
+            aria-label="Visit portfolio website project">
+            <img class="portfolio-preview-image" src="assets/bookstore-project.png" alt="Bookstore website homepage">
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-meta">
+            <div>
+            <span class="project-type">PROJECT SITE</span>
+            <h3>Bookstore - React</h3>
+            </div>
+            <span class="project-year">01 / 02</span>
+          </div>
+          <p>A personal space for showing work, sharing a point of view, and giving the curious somewhere to land.</p>
+          <div class="tag-row">
+            <span>Web design</span><span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <a href="https://netflix-clone-lac-iota-30.vercel.app/" target="_blank" rel="noreferrer" class="project-image dashboard-preview" aria-label="Visit dashboard project">
+            <img class="portfolio-preview-image" src="assets/noir-dashboard.png" alt="Noir streaming website homepage">
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-meta">
+            <div>
+              <span class="project-type">INTERFACE / EXPERIMENT</span>
+              <h3>Netflix Clone</h3>
+            </div>
+            <span class="project-year">02 / 02</span>
+          </div>
+          <p>A companion project exploring how information can feel more considered, readable, and inviting.</p>
+          <div class="tag-row">
+            <span>UI</span><span>Front-end</span><span>Interaction</span>
+          </div>
+        </article>
+      </div>
+      <div class="work-footer">
+        <span>MORE IDEAS IN THE MAKING</span>
+        <a class="text-link" href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer">
+          Browse all repositories < span>↗</ span >
+        </a >
+      </div >
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>Colossians 3:23 · NKJV</strong><span>“Whatever you do, do it heartily, as to the Lord.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 37:5 · NKJV</strong><span>“Commit your way to the Lord, Trust also in Him.”</span></aside>
+        <aside class="verse-note"><strong>Ecclesiastes 9:10 · NKJV</strong><span>“Whatever your hand finds to do, do it with your might.”</span></aside>
+      </div>
+    </section>
+
+    <!-- SKILLS & TOOLS: Highlights current learning areas in a contrasting banner. -->
+    <section class="skills-band">
+      <div class="section-index section-index-verse"><span>03</span><span>TOOLS IN THE TOOLBOX</span><aside class="verse-note"><strong>Philippians 4:13 · NKJV</strong><span>“I can do all things through Christ who strengthens me.”</span></aside></div>
+      <div class="skills-content"><h2>Learning out loud.<br><em>Building as I go.</em></h2>
+        <p>I`m growing my craft one thoughtful project at a time. Come see what’s in progress.</p>
+        <div class="skill-list">
+          <span>HTML <b>STRUCTURE</b></span>
+          <span>CSS <b>STYLE</b></span>
+          <span>JavaScript <b>BEHAVIOUR</b></span>
+          <span>GitHub <b>SHARING</b></span>
+        </div>
+      </div>
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>2 Timothy 1:7 · NKJV</strong><span>“God has not given us a spirit of fear, but of power.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 121:2 · NKJV</strong><span>“My help comes from the Lord, Who made heaven and earth.”</span></aside>
+        <aside class="verse-note"><strong>Isaiah 40:31 · NKJV</strong><span>“Those who wait on the Lord Shall renew their strength.”</span></aside>
+      </div>
+      <div class="skills-stamp">ALWAYS<br>EVOLVING <span>✳</span></div>
+    </section>
+
+    <!-- PERSONAL INTERESTS SHELF: Three editorial cards for books, films, and dinosaurs. -->
+    <section class="shelf section" id="shelf">
+      <div class="section-index section-index-verse"><span>04</span><span>A FEW THINGS I LOVE</span><aside class="verse-note"><strong>Romans 12:12 · NKJV</strong><span>“Rejoicing in hope, patient in tribulation, continuing steadfastly in prayer.”</span></aside></div>
+      <div class="section-heading">
+        <h2>Off the <em>clock</em></h2>
+        <p>Good stories come in more than one format.</p>
+      </div>
+      <div class="shelf-grid">
+        <article class="shelf-item shelf-book">
+          <div class="shelf-icon">
+            ✍
+          </div>
+          <span>01 / BETWEEN THE COVERS</span>
+          <h3>Books &amp; words</h3>
+          <p>Reading for the worlds; writing to see where a thought goes.</p>
+          <div class="book-spines"><i></i><i></i><i></i><i></i><i></i></div>
+        </article>
+        <article class="shelf-item shelf-film">
+          <div class="shelf-icon">◉</div>
+          <span>02 / THE BIG SCREEN</span>
+          <h3>Movies &amp; moments</h3>
+          <p>A good film leaves a little echo after the credits roll.</p>
+          <div class="film-strip">✳ &nbsp; 24 FPS &nbsp; ✳ &nbsp; PLAY &nbsp; ✳</div>
+        </article>
+        <article class="shelf-item shelf-dino">
+          <div class="shelf-icon">♜</div>
+          <span>03 / DEEP TIME</span>
+          <h3>Dinosaurs, obviously</h3>
+          <p>Spinosaurus is the favorite. A sail like that deserves top billing.</p>
+          <div class="fossil-mark">S.</div>
+        </article>
+      </div>
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>Psalm 19:14 · NKJV</strong><span>“Let the words of my mouth and the meditation of my heart Be acceptable.”</span></aside>
+        <aside class="verse-note"><strong>Proverbs 3:5 · NKJV</strong><span>“Trust in the Lord with all your heart.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 23:1 · NKJV</strong><span>“The Lord is my shepherd; I shall not want.”</span></aside>
+      </div>
+    </section>
+
+    <!-- COMMUNITY DINOSAUR CLICKER: One shared progress display; the SVG begins muted and fills with color over 20 clicks. -->
+    <section class="dino-community section" id="dino-community" aria-labelledby="dino-community-title">
+      <div class="section-index section-index-verse"><span>05</span><span>A LITTLE COMMUNITY PROJECT</span><aside class="verse-note"><strong>Galatians 6:9 · NKJV</strong><span>“Let us not grow weary while doing good, for in due season we shall reap.”</span></aside></div>
+      <div class="dino-community-content">
+        <p class="eyebrow"><span class="status-dot"></span> ONE CLICK AT A TIME</p>
+        <h2 id="dino-community-title">Color in the<br><em>dinosaur.</em></h2>
+        <p class="dino-community-copy">Give this little dinosaur a click. Every click adds a bit more color, and after 20 it’s fully brought to life.</p>
+        <button class="dino-clicker" id="dino-clicker" type="button" aria-label="Color in the dinosaur, 0 of 20 clicks" style="--fill-progress: 0">
+          <svg class="click-dino" viewBox="0 0 480 320" role="img" aria-labelledby="click-dino-title click-dino-desc">
+            <title id="click-dino-title">Community dinosaur</title>
+            <desc id="click-dino-desc">An outlined dinosaur that fills with color as the community clicks it.</desc>
+            <defs>
+              <clipPath id="dino-color-reveal"><rect class="dino-reveal" x="0" y="0" width="480" height="320" /></clipPath>
+              <linearGradient id="dino-color-gradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9d58d"/><stop offset=".52" stop-color="#62a17a"/><stop offset="1" stop-color="#348568"/></linearGradient>
+            </defs>
+
+            <!-- MUTED BASE: The full outline remains visible underneath the progressive color reveal. -->
+            <g class="dino-shape dino-empty" aria-hidden="true">
+              <path d="M165 158C116 137 70 122 18 136c28 27 74 50 146 62"/><path d="M128 178c4-49 41-82 96-82 47 0 85 25 101 67l37 12-5 41-27 3c-21 43-61 62-116 57-50-4-84-36-86-98Z"/><path d="M291 139c9-33 30-55 64-57l30 11 25-5 28 18-8 27-28 8-20 27-72-6"/><path d="m402 129 49 7-7 13-48-2"/><path d="M283 245c-2 23-6 35-14 49l28 8 23-7-4-11-12 1 10-35"/><path d="M341 251c10 18 16 27 27 36l-5 13-25 2-20-8 12-11-17-25"/><path d="M319 168c15 2 27 8 36 18l-21 6-18-9"/><circle cx="405" cy="111" r="4" class="dino-eye"/>
+            </g>
+
+            <!-- COLOR LAYER: The same silhouette is clipped to reveal only the portion earned by clicks. -->
+            <g class="dino-shape dino-colored" clip-path="url(#dino-color-reveal)" aria-hidden="true">
+              <path d="M165 158C116 137 70 122 18 136c28 27 74 50 146 62"/>
+              <path d="M128 178c4-49 41-82 96-82 47 0 85 25 101 67l37 12-5 41-27 3c-21 43-61 62-116 57-50-4-84-36-86-98Z"/>
+              <path d="M291 139c9-33 30-55 64-57l30 11 25-5 28 18-8 27-28 8-20 27-72-6"/>
+              <path d="m402 129 49 7-7 13-48-2"/>
+              <path d="M283 245c-2 23-6 35-14 49l28 8 23-7-4-11-12 1 10-35"/>
+              <path d="M341 251c10 18 16 27 27 36l-5 13-25 2-20-8 12-11-17-25"/>
+              <path d="M319 168c15 2 27 8 36 18l-21 6-18-9"/>
+              <circle cx="405" cy="111" r="4" class="dino-eye"/>
+            </g>
+            <path class="dino-sparkle" d="m85 82 5 13 13 5-13 5-5 13-5-13-13-5 13-5zM390 225l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+          </svg>
+          <span class="dino-click-hint">CLICK TO COLOR <span aria-hidden="true">↗</span></span>
+        </button>
+        <div class="dino-counter" aria-live="polite" aria-atomic="true">
+          <span class="dino-counter-value" id="dino-counter-value">—</span>
+          <span class="dino-counter-label">community clicks</span>
+        </div>
+        <p class="dino-progress" id="dino-progress" aria-live="polite">The dinosaur fills with every community click.</p>
+        <p class="dino-counter-status" id="dino-counter-status" role="status">Connecting to the community tally…</p>
+      </div>
+      <span class="dino-community-stamp" aria-hidden="true">✳</span> 
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>Micah 6:8 · NKJV</strong><span>“Do justly, To love mercy, And to walk humbly with your God.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 56:3 · NKJV</strong><span>“Whenever I am afraid, I will trust in You.”</span></aside>
+        <aside class="verse-note"><strong>Romans 15:13 · NKJV</strong><span>“May the God of hope fill you with all joy and peace.”</span></aside>
+      </div>
+    </section>
+
+    <!-- CONTACT CALL TO ACTION: Invites visitors to connect through GitHub. -->
+    <section class="contact">
+      <span class="contact-kicker">
+        YOUR TURN, CURIOUS HUMAN
+      </span>
+      <h2>Have a good<br><em>story?</em></h2>
+      <p>I`m always up for a thoughtful hello, a collaboration, or a conversation about prehistoric river monsters.</p>
+      <aside class="verse-note contact-verse"><strong>Numbers 6:24 · NKJV</strong><span>“The Lord bless you and keep you.”</span></aside>
+      <a href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer" class="button button-green">Find me on GitHub <span>↗</span>
+      </a>
+      <span class="contact-decoration">✳</span>
+      <div class="verse-scatter" aria-label="More encouraging Bible verses">
+        <aside class="verse-note"><strong>Zephaniah 3:17 · NKJV</strong><span>“The Lord your God in your midst, The Mighty One, will save.”</span></aside>
+        <aside class="verse-note"><strong>Psalm 118:24 · NKJV</strong><span>“This is the day the Lord has made; We will rejoice.”</span></aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- SITE FOOTER & SCRIPT ENTRY: Closing brand details and the JavaScript behaviors used on this page. -->
+  <footer class="site-footer"><a class="wordmark" href="#top">
+    <span class="mark">F<span>7</span></span>
+    <span>Aspen Stalliviere<span class="wordmark-light"></span></span></a>
+    <span>MADE WITH CURIOSITY &amp; A LITTLE MOSS.</span>
+    <a href="https://github.com/Fearfulseven72" target="_blank" rel="noreferrer">GITHUB ↗</a>
+    <span>© <span id="year">2026</span> Aspen</span>
+    <p class="scripture-credit">Scripture quotations are from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
